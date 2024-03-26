@@ -1,0 +1,1424 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-22T13:52:19.570Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3946592800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Register the patient in oasis application",
+        "description": "",
+        "id": "patient-registration;register-the-patient-in-oasis-application",
+        "after": [
+          {
+            "result": {
+              "duration": 198001700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13283172900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1995822300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User navigates to Oasis app URL",
+            "match": {
+              "location": "HomePageSteps.aUserNavigatesToURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4454075000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1999771700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I enter \"test_5\" text in \"UserName\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test_5\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"UserName\"",
+                  "offset": 25
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4302667100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2007819400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I enter \"test_5\" text in \"Password\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test_5\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 25
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2149433400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2001059700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click on \"LoginButton\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginButton\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2179321800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2012015200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I click on \"NoButton\" button if exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NoButton\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButtonifExists(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3574538900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000705900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I click on \"HamBurgerMenu\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HamBurgerMenu\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2163818800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2005449400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I click on \"PatientMasterIndex\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PatientMasterIndex\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2176137200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2004595300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I click on \"PMIProcessing\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PMIProcessing\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2193582300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2007351200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I click on \"PatientSearch\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PatientSearch\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2181272400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2001938100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I click on \"RegisteraNewPatientInfo\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RegisteraNewPatientInfo\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2581940100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2005454300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I select the \"MR\" value from \"Title\" Dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MR\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Title\"",
+                  "offset": 29
+                }
+              ],
+              "location": "HomePageSteps.selectDropDown(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4437525200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2012729300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I enter \"Ali\" text in \"Firstname\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Firstname\"",
+                  "offset": 22
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4360655100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2003782900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I enter \"Nour\" text in \"Secondname\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nour\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Secondname\"",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4381358500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2008750600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter \"Ali\" text in \"Thirdname\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Thirdname\"",
+                  "offset": 22
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4329850500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2006508900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I enter \"Nour\" text in \"FamilyName\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nour\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"FamilyName\"",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4331118400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000832800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I enter \"Ali\" text in \"MothersName\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"MothersName\"",
+                  "offset": 22
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2202509100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2010343000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I click on \"Cancel\" button if exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cancel\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButtonifExists(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2168379200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2002112100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I click on \"Male\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1237527800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1997426800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I select the \"Married\" value from \"MaritalStatus\" Dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Married\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"MaritalStatus\"",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.selectDropDown(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1258207500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1996965000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I select the \"Other\" value from \"Religion\" Dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Other\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Religion\"",
+                  "offset": 32
+                }
+              ],
+              "location": "HomePageSteps.selectDropDown(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4326647900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2003729500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I enter \"16\" text in \"Nationality\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"16\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Nationality\"",
+                  "offset": 21
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4330192400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2009671900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I enter \"MNGR\" text in \"Job\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MNGR\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Job\"",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4310043100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2005907500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I enter \"E\" text in \"Category\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"E\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Category\"",
+                  "offset": 20
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1216568300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2012030700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I select the \"Group B\" value from \"BloodType\" Dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Group B\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"BloodType\"",
+                  "offset": 34
+                }
+              ],
+              "location": "HomePageSteps.selectDropDown(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4413427200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2003625300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I enter \"21-03-1985\" text in \"DOB\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"21-03-1985\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"DOB\"",
+                  "offset": 29
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4490161800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2014094800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I enter \"0567891023\" text in \"MobileNumber\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0567891023\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"MobileNumber\"",
+                  "offset": 29
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2179570200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000480900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "I click on \"Notprocced\" button if exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Notprocced\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButtonifExists(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4411884800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2014352700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "I enter \"Test@gmail.com\" text in \"EmailID\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test@gmail.com\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"EmailID\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2201413500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2008394500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "I click on \"SaveChanges\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SaveChanges\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4365053600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1994154600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 36,
+            "name": "I enter \"AAAAA\" text in \"Purchaser\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AAAAA\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Purchaser\"",
+                  "offset": 24
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2167631200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2014362600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "I click on \"Contract1\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Contract1\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2223443100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2003065200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "I click on \"Yes\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yes\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4360660100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2009605700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "I enter \"23423\" text in \"DocNumber\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23423\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"DocNumber\"",
+                  "offset": 24
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4390307400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2007855500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "I enter \"POL12345\" text in \"DocNumber\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POL12345\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"DocNumber\"",
+                  "offset": 27
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2188494000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2007207700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "I click on \"AddInsurence\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddInsurence\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2190302600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2007903300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 43,
+            "name": "I click on \"SaveChanges\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SaveChanges\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1245460200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2011003900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "I select the \"Insurance\" value from \"IDType\" Dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insurance\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"IDType\"",
+                  "offset": 36
+                }
+              ],
+              "location": "HomePageSteps.selectDropDown(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2191395400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2003380200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 46,
+            "name": "I click on \"DefaultiD\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DefaultiD\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4392130800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2012923100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 47,
+            "name": "I enter \"23423\" text in \"DocumentNumber\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23423\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"DocumentNumber\"",
+                  "offset": 24
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4368130900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2009054500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 48,
+            "name": "I enter \"Hyderabad\" text in \"WhereIssue\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"WhereIssue\"",
+                  "offset": 28
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4428454100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2010879900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 49,
+            "name": "I enter \"29-11-2022\" text in \"issuedOn\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"29-11-2022\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"issuedOn\"",
+                  "offset": 29
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4484792700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2007038000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 50,
+            "name": "I enter \"29-11-2026\" text in \"Expiredon\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"29-11-2026\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Expiredon\"",
+                  "offset": 29
+                }
+              ],
+              "location": "HomePageSteps.inputText(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2206541200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000285300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 51,
+            "name": "I click on \"AddId\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddId\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2234274000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2001747600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 52,
+            "name": "I click on \"SaveChanges\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SaveChanges\"",
+                  "offset": 11
+                }
+              ],
+              "location": "HomePageSteps.clickButton(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PatientRegistration"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Patient Registration",
+    "description": "",
+    "id": "patient-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HomePage/PatientRegistration.feature",
+    "tags": []
+  }
+]
